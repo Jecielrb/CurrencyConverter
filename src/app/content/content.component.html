@@ -1,0 +1,25 @@
+<section class="gridArea">
+    <div class="main">
+        <h1>Simple Currency Converter</h1>
+        
+        <div class="main-container">
+
+            <div class="selection">
+                <label>From:</label>
+                <select class="from" id="from" [(ngModel)]="fromCountry" (change)="this.convert()">
+                    <option *ngFor="let c of currencyNames" [value]="c">{{c}}</option>
+                </select> 
+                <label>To:</label>
+                <select class="to" id="country"[(ngModel)]="toCountry" (change)="this.convert()">
+                    <option *ngFor="let c of currencyNames" [value]="c">{{c}}</option>
+                </select>
+            </div>
+            <input type="text"placeholder="--Enter amount--" id="userInput" (input)="convert()" [(ngModel)]="input"> 
+        </div>
+        <div id="results">
+            <h2>Converted: {{output}}
+                
+            </h2>
+            
+        </div>
+    </div>
