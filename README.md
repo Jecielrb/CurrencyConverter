@@ -1,6 +1,6 @@
 # SimpleCurrencyConverter
 
-This is my Assignment for Mobile Web-Based Application Development
+This is my assignment for Mobile Web-Based Application Development
 
 I am on the process of adding more features to this project just to practice my web-developing skills
 
