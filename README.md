@@ -1,4 +1,4 @@
-# SimpleCurrencyConverter
+# CurrencyConverter
 
 This is my assignment for Mobile Web-Based Application Development
 
