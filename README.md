@@ -1,6 +1,6 @@
-# CurrencyConverter
+# Description
 
-This is my assignment for Mobile Web-Based Application Development
+Currency Converter from my Mobile Web-App Development Assignment. 
 
 I am on the process of adding more features to this project just to practice my web-developing skills
 
